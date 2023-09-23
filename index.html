@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Student Portal</title>
+</head>
+<body>
+    <header>
+        <h1>Student Portal</h1>
+    </header>
+
+    <main>
+
+        <div class="search-column">
+            <input type="text" id="search" placeholder="Search here" class="search-bar">
+            <button id="search-button" class="search-button">Search</button>
+        </div>
+
+        <div class="button-container">
+            <button id="sort A-Z" class="rectangular-button">Sort A-Z</button>
+            <button id="sort Z-A" class="rectangular-button">Sort Z-A</button>
+            <button id="sort Marks" class="rectangular-button">Sort By Marks</button>
+            <button id="sort Passing" class="rectangular-button">Sort By Passing</button>
+            <button id="sort Class" class="rectangular-button">Sort By Class</button>
+            <button id="sort Gender" class="rectangular-button">Sort By Gender</button>
+        </div>
+
+        <table>
+
+            <thead>
+
+                <tr>
+                    <th>ID</th>
+                    <th>Name</th>
+                    <th>Gender</th>
+                    <th>Class</th>
+                    <th>Marks</th>
+                    <th>Passing</th>
+                    <th>Email</th>
+                </tr>
+
+                <tr>
+                  <td>1</td>
+                  <td>John Doe</td>
+                  <td>Male</td>
+                  <td>10th Grade</td>
+                  <td>85</td>
+                  <td>Yes</td>
+                  <td>john@example.com</td>
+              </tr>
+            </thead>
+
+            <tbody id="student-data">
+            </tbody>
+
+        </table>
+
+    </main>
+
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+
+</body>
+</html>
